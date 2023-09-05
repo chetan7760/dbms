@@ -1,0 +1,32 @@
+my_string = "Hello, World!"
+
+# Get the length of the string
+print(len(my_string))  # Output: 13
+
+# Convert the string to uppercase
+print(my_string.upper())  # Output: HELLO, WORLD!
+
+# Remove leading and trailing whitespace
+print(my_string.strip())  # Output: Hello, World!
+
+# Replace a substring with another substring
+print(my_string.replace("World", "Python"))  # Output: Hello, Python!
+
+# Split the string into a list of words
+print(my_string.split())  # Output: ['Hello,', 'World!']
+
+# Join a list of strings into a single string
+words = ["Hello", "World"]
+print("-".join(words))  # Output: Hello-World
+
+# Check if the string starts with a prefix
+print(my_string.startswith("Hello"))  # Output: True
+
+# Check if the string ends with a suffix
+print(my_string.endswith("!"))  # Output: True
+
+# Find the index of a substring
+print(my_string.find("World"))  # Output: 7
+
+# Count the number of occurrences of a substring
+print(my_string.count("l"))  # Output: 3
